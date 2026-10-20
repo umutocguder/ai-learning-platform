@@ -21,7 +21,7 @@
 ---
 
 ## 2. Live Links & Project Registry
-- **Live Web Application**: [https://ai-learning-platform.vercel.app](https://ai-learning-platform.vercel.app)
+- **Live Web Application**: [https://11ai-academy.vercel.app](https://11ai-academy.vercel.app)
 - **Private GitHub Repository**: [https://github.com/umutocguder/ai-learning-platform](https://github.com/umutocguder/ai-learning-platform) *(Private)*
 - **Firebase Project ID**: `hopem-software-cloud` (Cloud Firestore Europe `eur3`)
 - **Author & Copyright**: Created by [11Hopem](https://11hopem.com)
