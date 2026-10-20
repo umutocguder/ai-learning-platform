@@ -1,0 +1,30 @@
+{
+  "projectId": "ai-learning-platform",
+  "author": "11Hopem <umutocgdr@gmail.com>",
+  "timestamp": "2026-10-20T06:40:52.735Z",
+  "overallHash": "03784d3e1f3a559cf6a9344975fd0c7e87ee0a6d36750923aac0f20dddd52e75",
+  "fileCount": 21,
+  "manifest": {
+    "AGENTS.md": "794d33443802e2d6cd2b0884638c87220ac63defd051ec60b1515a8a3b711ebe",
+    "CLAUDE.md": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49",
+    "README.md": "4e98462552b929d125b37a53a3f8a81d46379f415e21cefb2702d7432664524e",
+    "WORKLOG.md": "7a41e4e702a4b67dd19fec03ff2c4e6e227fd268ab384d4c8d0306daa32d8c81",
+    "assets/images/logo.svg": "36f2e80e22d0b728faf64f01de8047876382acd99658002caf00380128bc89ee",
+    "package.json": "5be7a70474a2a6db984e2d4e63448bf7af440698a18481738b1769b02928a55b",
+    "public/app.js": "b3e552f64bfcd0586bd11a59f8da6b8667471a611b4a5be113ab260a108836fc",
+    "public/favicon.svg": "36f2e80e22d0b728faf64f01de8047876382acd99658002caf00380128bc89ee",
+    "public/index.html": "e6e18c2dbbbe0de451f418136971fffe9ed040c0b77451b8da1429c383fa4feb",
+    "public/logo.svg": "36f2e80e22d0b728faf64f01de8047876382acd99658002caf00380128bc89ee",
+    "public/src/lib/academyEngine.js": "acc84079dd92eebbea7a763c0909f744366f5b40ab51b0f1a2cd4b843c48bfa2",
+    "public/src/telemetry/firebaseLogger.js": "0bfe1304d10ba788410d457a60df75257f21b6aa5ef26197b2ea46de213547e4",
+    "public/style.css": "e72f5568f411fee03ead9a1fcfe16dafac401fa0f702fe737a10fec620e68bac",
+    "scripts/backupService.js": "66461c7e37d1ad7952f069b4019c70897fa85e5f122a7400524b9031432f9a97",
+    "scripts/build.js": "15a281ba6dbf936605c92d40c7fe55c24795772597fd06b0d14896db546c1be3",
+    "scripts/lintCheck.js": "afe35f70656c5698f8cbe3c937767f627a7961455a3b80277d17e2878e0d2c9b",
+    "src/lib/academyEngine.js": "acc84079dd92eebbea7a763c0909f744366f5b40ab51b0f1a2cd4b843c48bfa2",
+    "src/telemetry/firebaseLogger.js": "0bfe1304d10ba788410d457a60df75257f21b6aa5ef26197b2ea46de213547e4",
+    "tests/academy.test.js": "7459c7c65ecdb38d858cb9c197b116c5b83122a8d1eacb9a83bcc01198ed0c0a",
+    "tests/blueprint.test.js": "abd239383518bfcf82d9b0b4980e57ffe2921c866bf626d3eeee179717af809e",
+    "vercel.json": "b646929df60be60519c1fbdf104c699b74bd92a8fe5a9d728b38aab2d7a23e43"
+  }
+}

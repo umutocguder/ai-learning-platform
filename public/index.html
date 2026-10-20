@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<!-- Created by 11Hopem -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>11AI Academy — Master AI Engineering, Prompt Mastery & Autonomous Agents</title>
+  <meta name="description" content="Next-Gen Interactive AI Learning Platform. Master Transformers, Prompt Engineering, Agentic Coding, MCP Tool Calling, RAG Architecture, and Generative Media with hands-on labs and official certification.">
+  <meta name="keywords" content="AI learning, prompt engineering, agentic coding, MCP, LLM architecture, RAG, 11Hopem">
+  <meta name="author" content="11Hopem <umutocgdr@gmail.com>">
+
+  <!-- OpenGraph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="11AI Academy — Master AI Engineering & Prompt Mastery">
+  <meta property="og:description" content="Next-Gen Interactive AI Learning Platform with hands-on prompt evaluator, curriculum tracks, and certification.">
+  <meta property="og:url" content="https://ai-learning-platform.vercel.app">
+  <meta property="og:image" content="https://ai-learning-platform.vercel.app/logo.svg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="11AI Academy — Master AI Engineering & Prompt Mastery">
+  <meta name="twitter:description" content="Next-Gen Interactive AI Learning Platform with hands-on prompt evaluator and certification.">
+  <meta name="twitter:image" content="https://ai-learning-platform.vercel.app/logo.svg">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="alternate icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/style.css">
+
+  <!-- Structured Data (Schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalApplication",
+    "name": "11AI Academy",
+    "description": "Next-Gen Interactive AI Learning Platform by 11Hopem",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "All modern web browsers",
+    "url": "https://ai-learning-platform.vercel.app",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "USD"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "11Hopem",
+      "url": "https://11hopem.com"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#hero" class="brand-wrap">
+        <img src="/logo.svg" alt="11AI Academy Logo" class="brand-logo">
+        <div class="brand-text">
+          <h1>11AI Academy</h1>
+          <span>AI Learning Hub • 11Hopem</span>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#tracks">Curriculum</a></li>
+        <li><a href="#prompt-lab">Prompt Lab</a></li>
+        <li><a href="#cheatsheets">Cheatsheets</a></li>
+        <li><a href="#certification">Certification</a></li>
+      </ul>
+
+      <div class="user-hud-badge" id="hudProgress">
+        <span class="xp-pill" id="hudXp">0 XP</span>
+        <span class="level-tag" id="hudLevel">AI Novice</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-pill">
+        ⚡ Industrial-Grade AI Curriculum & Interactive Lab
+      </div>
+      <h2>
+        Master AI Engineering, <br>
+        <span class="hero-gradient-text">Prompt Mastery & Autonomous Agents</span>
+      </h2>
+      <p>
+        From transformer foundations and advanced chain-of-thought prompting to Model Context Protocol (MCP) tool loops and enterprise RAG architecture. Interactive, structured, and certified.
+      </p>
+      <div class="hero-actions">
+        <a href="#tracks" class="btn-primary">
+          <span>Explore Curriculum</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#prompt-lab" class="btn-secondary">
+          <span>Open Prompt Lab</span>
+        </a>
+      </div>
+
+      <!-- Stats Bar -->
+      <div class="stats-strip">
+        <div class="stat-item">
+          <h3>6</h3>
+          <p>Core Mastery Tracks</p>
+        </div>
+        <div class="stat-item">
+          <h3>14+</h3>
+          <p>Hands-on Modules</p>
+        </div>
+        <div class="stat-item">
+          <h3>AI Lab</h3>
+          <p>Automated Prompt Evaluator</p>
+        </div>
+        <div class="stat-item">
+          <h3>Verified</h3>
+          <p>11Hopem Certification</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curriculum Section -->
+  <section id="tracks">
+    <div class="container">
+      <div class="section-head">
+        <span class="badge">Comprehensive Curriculum</span>
+        <h2>Structured Learning Pathways</h2>
+        <p>Progress through foundational theory, production coding workflows, and autonomous system design.</p>
+      </div>
+
+      <div class="tracks-grid" id="tracksGrid">
+        <!-- Rendered dynamically via app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Prompt Evaluator & Playground -->
+  <section id="prompt-lab">
+    <div class="container">
+      <div class="section-head">
+        <span class="badge">Interactive Lab</span>
+        <h2>AI Prompt Evaluator & Optimizer</h2>
+        <p>Test any prompt against 4 objective criteria: Clarity, Persona/Context, Constraints, and Output Formatting.</p>
+      </div>
+
+      <div class="playground-box">
+        <!-- Input Column -->
+        <div class="input-column">
+          <h3>Your Prompt Draft</h3>
+          <p>Type or paste your prompt below to evaluate its architectural strength.</p>
+          <textarea id="promptInput" class="prompt-input" placeholder="e.g. Act as a Senior Principal Cloud Architect. Review the following microservice design for single points of failure, scalability bottlenecks, and cost optimization. Format your response with an executive summary and a prioritized remediation table..."></textarea>
+          
+          <div class="playground-actions">
+            <button id="btnEvaluate" class="btn-primary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m10 15 5-3-5-3v6z"/></svg>
+              <span>Analyze & Score Prompt</span>
+            </button>
+            <button id="btnSamplePrompt" class="btn-secondary">
+              <span>Load Sample</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Results Column -->
+        <div class="results-column">
+          <h3>Evaluation Breakdown</h3>
+          <p>Real-time architectural feedback and automated optimization.</p>
+
+          <div class="score-badge-wrap">
+            <div class="score-circle" id="scoreCircle">
+              <span class="score-num" id="scoreNum">0</span>
+              <span class="score-label">Score</span>
+            </div>
+            <div class="score-meta">
+              <h4 id="scoreTier">Ready to Analyze</h4>
+              <p id="scoreSummary">Submit a prompt to view detailed metrics.</p>
+            </div>
+          </div>
+
+          <!-- 4 Dimension Metric Bars -->
+          <div class="metric-bars">
+            <div class="metric-bar-item">
+              <div class="metric-head"><span>Clarity</span><span id="metricClarity">0/25</span></div>
+              <div class="bar-bg"><div class="bar-fill" id="fillClarity"></div></div>
+            </div>
+            <div class="metric-bar-item">
+              <div class="metric-head"><span>Context & Role</span><span id="metricContext">0/25</span></div>
+              <div class="bar-bg"><div class="bar-fill" id="fillContext"></div></div>
+            </div>
+            <div class="metric-bar-item">
+              <div class="metric-head"><span>Constraints</span><span id="metricConstraints">0/25</span></div>
+              <div class="bar-bg"><div class="bar-fill" id="fillConstraints"></div></div>
+            </div>
+            <div class="metric-bar-item">
+              <div class="metric-head"><span>Formatting</span><span id="metricFormatting">0/25</span></div>
+              <div class="bar-bg"><div class="bar-fill" id="fillFormatting"></div></div>
+            </div>
+          </div>
+
+          <!-- Constructive Critique -->
+          <div class="critique-box" id="critiqueBox">
+            💡 Tips: Defining a specific role persona ("Act as...") and clear negative constraints drastically elevates prompt precision.
+          </div>
+
+          <!-- Auto-Enhanced Prompt Suggestion -->
+          <div class="enhanced-box" id="enhancedBox">
+            <h5>
+              <span>Auto-Enhanced Blueprint</span>
+              <button id="btnCopyEnhanced" class="btn-secondary" style="padding: 0.25rem 0.65rem; font-size: 0.75rem;">Copy</button>
+            </h5>
+            <pre id="enhancedContent">Enhanced prompt will generate here automatically...</pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cheatsheets & Production Templates -->
+  <section id="cheatsheets">
+    <div class="container">
+      <div class="section-head">
+        <span class="badge">Production Templates</span>
+        <h2>Prompt Cheatsheets & Blueprints</h2>
+        <p>Curated, production-tested prompt formulas ready for your everyday development workflows.</p>
+      </div>
+
+      <div class="cheatsheet-grid" id="cheatsheetGrid">
+        <!-- Rendered dynamically via app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Certification & Knowledge Check -->
+  <section id="certification">
+    <div class="container">
+      <div class="section-head">
+        <span class="badge">Official Credential</span>
+        <h2>Knowledge Assessment & Certificate</h2>
+        <p>Demonstrate your mastery across all 6 core tracks. Score 70% or higher to earn the official 11Hopem AI Practitioner Certificate.</p>
+      </div>
+
+      <div class="quiz-wrapper">
+        <div id="quizForm">
+          <div style="margin-bottom: 2rem;">
+            <label for="learnerName" style="display: block; font-size: 0.9rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--cyan-glow);">
+              Enter Your Name (For Certificate):
+            </label>
+            <input type="text" id="learnerName" placeholder="e.g. Umut Öçgüder" style="width: 100%; padding: 0.85rem 1rem; background: rgba(7, 9, 19, 0.7); border: 1px solid var(--border-subtle); border-radius: 10px; color: #fff; font-size: 1rem; outline: none;">
+          </div>
+
+          <div id="quizQuestionsContainer">
+            <!-- Questions rendered via app.js -->
+          </div>
+
+          <div style="text-align: center; margin-top: 2rem;">
+            <button id="btnSubmitQuiz" class="btn-primary" style="font-size: 1.05rem; padding: 1rem 2.5rem;">
+              <span>Submit Exam & Generate Certificate</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Rendered Certificate Area (Hidden by default until exam passed) -->
+        <div id="certContainer" style="display: none;"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lesson Reader Modal -->
+  <div class="modal-overlay" id="lessonModal">
+    <div class="modal-content">
+      <button class="modal-close" id="btnCloseModal">&times;</button>
+      <div id="modalBody">
+        <!-- Lesson content populated via app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Hub -->
+  <div class="toast-container" id="toastHub"></div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div class="footer-brand">
+        <img src="/logo.svg" alt="11Hopem Logo" style="width: 28px; height: 28px; border-radius: 6px;">
+        <span>Created by <a href="https://11hopem.com" target="_blank" rel="noopener noreferrer">11Hopem</a></span>
+      </div>
+      <div>
+        <span>Next-Gen AI Learning Platform • All rights reserved &copy; 2026 11Hopem</span>
+      </div>
+      <div class="footer-links">
+        <a href="https://11hopem.com" target="_blank" rel="noopener noreferrer">11hopem.com</a>
+        <a href="#tracks">Curriculum</a>
+        <a href="#prompt-lab">Prompt Lab</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

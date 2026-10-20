@@ -1,0 +1,41 @@
+<!-- Created by 11Hopem -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)"/>
+  <rect width="504" height="504" x="4" y="4" rx="124" fill="none" stroke="url(#primaryGrad)" stroke-width="4" stroke-opacity="0.3"/>
+  <g filter="url(#glow)">
+    <!-- Central Brain & Neural Nodes -->
+    <path d="M256 110 C180 110 130 160 130 230 C130 280 160 310 190 330 L190 370 C190 380 200 390 210 390 L302 390 C312 390 322 380 322 370 L322 330 C352 310 382 280 382 230 C382 160 332 110 256 110 Z" fill="none" stroke="url(#primaryGrad)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Neural Connections & Nodes -->
+    <circle cx="256" cy="190" r="14" fill="#06B6D4"/>
+    <circle cx="190" cy="240" r="12" fill="#8B5CF6"/>
+    <circle cx="322" cy="240" r="12" fill="#EC4899"/>
+    <circle cx="225" cy="300" r="10" fill="#3B82F6"/>
+    <circle cx="287" cy="300" r="10" fill="#A855F7"/>
+    <line x1="256" y1="190" x2="190" y2="240" stroke="#06B6D4" stroke-width="6" stroke-opacity="0.8"/>
+    <line x1="256" y1="190" x2="322" y2="240" stroke="#EC4899" stroke-width="6" stroke-opacity="0.8"/>
+    <line x1="190" y1="240" x2="225" y2="300" stroke="#8B5CF6" stroke-width="6" stroke-opacity="0.8"/>
+    <line x1="322" y1="240" x2="287" y2="300" stroke="#8B5CF6" stroke-width="6" stroke-opacity="0.8"/>
+    <line x1="225" y1="300" x2="287" y2="300" stroke="#A855F7" stroke-width="6" stroke-opacity="0.8"/>
+    <!-- Graduation / Knowledge Cap Accent -->
+    <path d="M160 140 L256 95 L352 140 L256 185 Z" fill="url(#primaryGrad)" fill-opacity="0.3" stroke="url(#primaryGrad)" stroke-width="8"/>
+    <path d="M352 140 L352 180" stroke="#EC4899" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="352" cy="188" r="6" fill="#EC4899"/>
+    <!-- Base Platform Shelf -->
+    <line x1="220" y1="415" x2="292" y2="415" stroke="url(#primaryGrad)" stroke-width="12" stroke-linecap="round"/>
+  </g>
+</svg>

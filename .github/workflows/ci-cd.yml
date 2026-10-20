@@ -1,0 +1,36 @@
+# Created by 11Hopem
+# Copyright (c) 2026 11Hopem. All rights reserved.
+# Licensed under 11Hopem Proprietary License.
+
+name: 11AI Academy CI/CD Pipeline
+
+on:
+  push:
+    branches: [ master, dev ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Verify Dependencies & Build
+        run: |
+          node scripts/build.js
+
+      - name: Run Rule 20 Linting & Static Analysis
+        run: |
+          npm run lint
+
+      - name: Execute Automated Test Suite (Rule 8)
+        run: |
+          npm test
