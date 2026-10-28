@@ -1,13 +1,13 @@
 {
   "projectId": "ai-learning-platform",
   "author": "11Hopem <umutocgdr@gmail.com>",
-  "timestamp": "2026-10-20T06:44:58.745Z",
-  "overallHash": "6426f33e5212e2383c1cef7785555d310a33753573a23158e0355c9d9b034ec7",
+  "timestamp": "2026-10-28T19:50:22.770Z",
+  "overallHash": "6c5ff3d026a93bd1b7e2716afe5919b7d3e17a345879b23392e00e7019f9f26d",
   "fileCount": 21,
   "manifest": {
     "AGENTS.md": "794d33443802e2d6cd2b0884638c87220ac63defd051ec60b1515a8a3b711ebe",
     "CLAUDE.md": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49",
-    "README.md": "711fad79ac1bcdccf009b6964d5deed2438e3e0d9b862d1845a665da313b9f85",
+    "README.md": "29e1692f859fe46ffadfd2f86f0746ce5e99e010f171d51fe084743a2efe2fe0",
     "WORKLOG.md": "7a41e4e702a4b67dd19fec03ff2c4e6e227fd268ab384d4c8d0306daa32d8c81",
     "assets/images/logo.svg": "36f2e80e22d0b728faf64f01de8047876382acd99658002caf00380128bc89ee",
     "package.json": "5be7a70474a2a6db984e2d4e63448bf7af440698a18481738b1769b02928a55b",
